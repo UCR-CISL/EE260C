@@ -6,6 +6,11 @@ We have a customly built docker image that contains
 - cuda 11.4
 - carla 0.9.13
 
+#### Prerequisites
+Similar to carla official docker prerequisites
+* Install docker following instructions [here](https://docs.docker.com/engine/install/)
+* Install nvidia-docker2 following instructions [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#installation-guide)
+
 #### Getting the docker image
 Build the docker locally
 ```commandline
