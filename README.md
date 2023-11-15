@@ -75,7 +75,9 @@ sudo docker run -it --privileged --gpus all --net=host -e DISPLAY=$DISPLAY \
     hangqiu/srunner:0.9.13 \
     /bin/python3 manual_control.py
 ```
+![img](Docs/imgs/srunner_manual_control.png)
 *Note:* This is the manual_control from the scenario runner, not exactly the same one from carla/PythonAPI/example mentioned above.
 
 The task of this scenario *FollowLeadingVehicle_1* is to drive behind the leading vehicle and finish the road segment. 
-After finishing the task, or timed out (since scenario launch), the scenario will terminate itself.
+
+After finishing the task, or timed out (timer starts from scenario launch, **not** manual_control launch), the scenario will terminate itself.
