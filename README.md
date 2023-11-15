@@ -1,4 +1,4 @@
-# EE260C
+# EE260C Introduction to the Self-driving Stack
 
 ## Carla Docker Image
 We have a custom built docker image that contains
