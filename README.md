@@ -6,6 +6,9 @@ We have a custom built docker image that contains
 - cuda 11.4
 - carla 0.9.13
 
+*Note:* If you want a different carla version, follow carla's [official instructions](https://github.com/carla-simulator/carla/blob/master/Util/Docker/README.md).
+
+
 #### Prerequisites
 Similar to carla official docker prerequisites
 * Install docker following instructions [here](https://docs.docker.com/engine/install/)
