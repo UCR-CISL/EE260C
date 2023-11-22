@@ -12,8 +12,8 @@ USER carla
 
 WORKDIR /home/carla
 RUN git clone https://github.com/carla-simulator/scenario_runner.git
-RUN git checkout tags/v0.9.13
 
 WORKDIR /home/carla/scenario_runner
+RUN git checkout tags/v0.9.13
 RUN python3 -m pip install --user -r requirements.txt
 RUN python3 -m pip install numpy==1.23.5 # numpy.int is deprecated since version 1.24, remove if scenario_runner fixed this bug
