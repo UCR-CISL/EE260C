@@ -1,4 +1,4 @@
-# EE260C Introduction to the Self-driving Stack
+# Carla Dockers
 
 ## Carla Docker Image
 *Note:* Carla has [official instructions](https://github.com/carla-simulator/carla/blob/master/Util/Docker/README.md) for docker. Caution that as of Nov 2023, this link builds carla with ubuntu 18 so may not be compatible for other packages such as ROS2.
